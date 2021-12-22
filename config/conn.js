@@ -2,7 +2,7 @@ const mysql = require('mysql')
 const conn = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'alvopro',
+    password: '', //apaguei para o git apenas
     port: 3306,
     database: 'db_banco'
 })
